@@ -1,0 +1,26 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+ssl.env
+
+# Dependencies
+node_modules/
+
+# Local database
+bookstore.db
+bookstore.db-shm
+bookstore.db-wal
+*.db-journal
+
+# Test coverage
+coverage/
+
+# Backup files
+*.bak
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
